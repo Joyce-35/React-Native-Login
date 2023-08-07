@@ -3,8 +3,7 @@ import {
   StyleSheet,
   View
 } from "react-native";
-
-import LoginScreen from "./LoginScreen";
+import ContactsScreen from "./ContactsScreen";
 
 class App extends Component {
   constructor(props) {
@@ -18,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-     <LoginScreen /> 
+     <ContactsScreen /> 
       </View>
     );
   }
